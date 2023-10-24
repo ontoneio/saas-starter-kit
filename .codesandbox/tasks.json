@@ -1,0 +1,83 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "dev": {
+      "name": "dev",
+      "command": "npm run dev",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": false
+    },
+    "check-types": {
+      "name": "check-types",
+      "command": "npm run check-types",
+      "runAtStart": false
+    },
+    "check-format": {
+      "name": "check-format",
+      "command": "npm run check-format",
+      "runAtStart": false
+    },
+    "check-lint": {
+      "name": "check-lint",
+      "command": "npm run check-lint",
+      "runAtStart": false
+    },
+    "format": {
+      "name": "format",
+      "command": "npm run format",
+      "runAtStart": false
+    },
+    "test-all": {
+      "name": "test-all",
+      "command": "npm run test-all",
+      "runAtStart": false
+    },
+    "playwright:update": {
+      "name": "playwright:update",
+      "command": "npm run playwright:update",
+      "runAtStart": false
+    },
+    "test:e2e": {
+      "name": "test:e2e",
+      "command": "npm run test:e2e",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "test:watch": {
+      "name": "test:watch",
+      "command": "npm run test:watch",
+      "runAtStart": false
+    },
+    "test:cov": {
+      "name": "test:cov",
+      "command": "npm run test:cov",
+      "runAtStart": false
+    },
+    "build-ci": {
+      "name": "build-ci",
+      "command": "npm run build-ci",
+      "runAtStart": false
+    }
+  }
+}
